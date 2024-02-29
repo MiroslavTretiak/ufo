@@ -8,26 +8,39 @@
 </head>
 
 <body>
-    <main style="background-color: yellow;">
+    <main style="display: inline-block; width: 100%; font-family: Arial;">
 
 
-        <div style="float: left; width: 20%; background-color: pink;">
-            <h1 style="font-weight: bold; color: #007dff ">404</h1>
-            <p style="font-weight: bold; color: black"><span style="text-transform:uppercase">Page not found</span></p>
-            <a style="" href="https://www.w3schools.com/html/html_intro.asp">Go to home</a>
+        <div style="float: left; width: 25%; margin-left:20%; margin-top: 150px">
+            <h1 style="font-size: 100px; font-weight: bold; color: #007dff ">404</h1>
+            <p style="border-width: 10px; font-size: 30px; font-weight: bold; color: black">
+                <span style="text-transform:uppercase">Page not found</span>
+            </p>
+            <a style="border: 10px solid rgb(0, 151, 244); font-size: 25px; text-decoration: none; padding: 15px; padding-left: 40px; padding-right: 40px; background-color: yellow;" href="https://www.w3schools.com/html/html_intro.asp">Go to home</a>
         </div>
-        <img style="width: 30%; " src="ufo.jpg" alt="UFO lekste kuri vagia daiktus">
+        <img style="width: 35%; float: left; margin-top: 170px " src="ufo.jpg" alt="UFO lekste kuri vagia daiktus">
     </main>
 </body>
 
 </html>
 
 <!--
+Tekstines savybes yra paveldimos
+
+display: none;          // nemato pasirinkto elemento
+display: block;         // vertikaliai
+display: inline;        // <a>, <span>, <img>
+display: inline-block;  // jei elementai siauri, tai taplinasi i viena eilute 
+                        // (salia vienas kito), bet jei elementas yra labai platus
+                        // tai tada jis apsiriboja ties 100% tevo plocio
+
+
 Sriftai:
 - font-family: Arial;
 - font-size: 100px
 - font style: italic;
 - font-weight: bold; normal;
+- text-transform: capilize; lowercase; uppercase;
 
 - text-decoration: underline; none;
 
